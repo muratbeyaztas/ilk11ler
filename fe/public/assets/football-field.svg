@@ -1,0 +1,23 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Field Background -->
+  <rect width="600" height="800" fill="#2d7a3e"/>
+  
+  <!-- Center Line -->
+  <line x1="0" y1="400" x2="600" y2="400" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Center Circle -->
+  <circle cx="300" cy="400" r="80" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  <circle cx="300" cy="400" r="5" fill="#ffffff" opacity="0.3"/>
+  
+  <!-- Top Penalty Area -->
+  <rect x="150" y="0" width="300" height="120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  <rect x="210" y="0" width="180" height="50" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Bottom Penalty Area -->
+  <rect x="150" y="680" width="300" height="120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  <rect x="210" y="750" width="180" height="50" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  
+  <!-- Field Border -->
+  <rect x="10" y="10" width="580" height="780" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+</svg>
+

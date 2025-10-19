@@ -1,0 +1,38 @@
+# Asset klasörü yapısı
+
+Bu klasörde takım logoları, oyuncu fotoğrafları ve teknik direktör fotoğrafları bulunmalıdır.
+
+## Klasör Yapısı
+
+```
+assets/
+├── teams/              # Takım logoları
+│   ├── galatasaray.png
+│   ├── fenerbahce.png
+│   ├── besiktas.png
+│   └── trabzonspor.png
+├── players/            # Oyuncu fotoğrafları
+│   ├── gs/            # Galatasaray oyuncuları
+│   ├── fb/            # Fenerbahçe oyuncuları
+│   ├── bjk/           # Beşiktaş oyuncuları
+│   └── ts/            # Trabzonspor oyuncuları
+└── coaches/            # Teknik direktör fotoğrafları
+    ├── okan-buruk.png
+    ├── ismail-kartal.png
+    ├── fernando-santos.png
+    └── abdullah-avci.png
+```
+
+## Görsel Gereksinimleri
+
+- Takım logoları: 200x200px, PNG formatı, şeffaf arka plan
+- Oyuncu fotoğrafları: 300x300px, PNG/JPG formatı, yuvarlak kesilecek
+- Teknik direktör fotoğrafları: 300x300px, PNG/JPG formatı, yuvarlak kesilecek
+
+## Görselleri İndirme
+
+Görselleri aşağıdaki kaynaklardan indirebilirsiniz:
+- Transfermarkt.com
+- Resmi takım websiteleri
+- Wikipedia
+
