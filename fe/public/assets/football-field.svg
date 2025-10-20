@@ -2,22 +2,54 @@
   <!-- Field Background -->
   <rect width="600" height="800" fill="#2d7a3e"/>
   
+  <!-- Field Border -->
+  <rect x="10" y="10" width="580" height="780" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  
   <!-- Center Line -->
-  <line x1="0" y1="400" x2="600" y2="400" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  <line x1="10" y1="400" x2="590" y2="400" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
   
   <!-- Center Circle -->
-  <circle cx="300" cy="400" r="80" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
-  <circle cx="300" cy="400" r="5" fill="#ffffff" opacity="0.3"/>
+  <circle cx="300" cy="400" r="80" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  <circle cx="300" cy="400" r="5" fill="#ffffff" opacity="0.8"/>
   
-  <!-- Top Penalty Area -->
-  <rect x="150" y="0" width="300" height="120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
-  <rect x="210" y="0" width="180" height="50" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  <!-- Top Goal Area (6-yard box) -->
+  <rect x="240" y="10" width="120" height="50" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
   
-  <!-- Bottom Penalty Area -->
-  <rect x="150" y="680" width="300" height="120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
-  <rect x="210" y="750" width="180" height="50" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  <!-- Top Penalty Area (18-yard box) -->
+  <rect x="150" y="10" width="300" height="120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
   
-  <!-- Field Border -->
-  <rect x="10" y="10" width="580" height="780" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.3"/>
+  <!-- Top Penalty Spot -->
+  <circle cx="300" cy="100" r="3" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Top Penalty Arc -->
+  <path d="M 220 130 A 80 80 0 0 1 380 130" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Top Goal -->
+  <rect x="270" y="0" width="60" height="10" fill="none" stroke="#ffffff" stroke-width="4" opacity="1"/>
+  <line x1="270" y1="0" x2="270" y2="10" stroke="#ffffff" stroke-width="4" opacity="1"/>
+  <line x1="330" y1="0" x2="330" y2="10" stroke="#ffffff" stroke-width="4" opacity="1"/>
+  
+  <!-- Bottom Goal Area (6-yard box) -->
+  <rect x="240" y="740" width="120" height="50" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Bottom Penalty Area (18-yard box) -->
+  <rect x="150" y="670" width="300" height="120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Bottom Penalty Spot -->
+  <circle cx="300" cy="700" r="3" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Bottom Penalty Arc -->
+  <path d="M 220 670 A 80 80 0 0 0 380 670" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Bottom Goal -->
+  <rect x="270" y="790" width="60" height="10" fill="none" stroke="#ffffff" stroke-width="4" opacity="1"/>
+  <line x1="270" y1="790" x2="270" y2="800" stroke="#ffffff" stroke-width="4" opacity="1"/>
+  <line x1="330" y1="790" x2="330" y2="800" stroke="#ffffff" stroke-width="4" opacity="1"/>
+  
+  <!-- Corner Arcs -->
+  <path d="M 10 30 A 20 20 0 0 1 30 10" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  <path d="M 570 10 A 20 20 0 0 1 590 30" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  <path d="M 590 770 A 20 20 0 0 1 570 790" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
+  <path d="M 30 790 A 20 20 0 0 1 10 770" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8"/>
 </svg>
 
